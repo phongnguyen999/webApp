@@ -1,0 +1,22 @@
+mkdir create new folder
+cd navigate to the folder
+virtualenv venv --python=python2.7  run virtualenv with python 2.7
+pip freeze > requirements.txt
+mkdir app app/templates
+touch create new file
+export FLASK_APP=run.py
+$ flask run
+pip install flask-sqlalchemy mysql-python prevent sql injection
+not input of raw sql
+
+$ mysql -u root
+database: web_db
+mysql> CREATE USER 'dt_pn'@'localhost' IDENTIFIED BY '1234';
+mysql> CREATE DATABASE web_db;
+mysql> GRANT ALL PRIVILEGES ON web_db . * TO 'dt_pn'@'localhost';
+
+You can add files using git add, example git add README, git add <folder>/*, or even git add *
+
+Then use git commit -m "<Message>" to commit files
+
+Finally git push -u origin master to push files.
